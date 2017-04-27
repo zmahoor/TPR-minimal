@@ -27,10 +27,11 @@
 5. Edit settings.py with your Twitch information: 
 
 ```
-CHANNEL=name of channel you want to stream,
-IDENT=name of the twitch account acts as a chat bot,
-OAUTH=oauth token obtained from the previous step.
+PASS = oauth token obtained from the previous step.
+IDENT = name of the chat bot. 
+CHANNEL = Name of the channel you wish to stream.
 ```
 
 6. Run "python chat_bot.py" to activate your chat bot.
 
+7. If anyone type's anything into your Twitch channel now, it will be printed by the chat bot.
