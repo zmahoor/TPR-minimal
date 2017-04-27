@@ -1,3 +1,5 @@
+# Twitch Plays Robotics (TPR), minimal installation.
+
 ----------------------------TO SET UP A TWITCH CHANNEL--------------------------
 1. Create a Twitch.tv account at www.twitch.tv if you do not already have one.
 
