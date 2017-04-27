@@ -1,11 +1,11 @@
 ----------------------------TO SET UP A TWITCH CHANNEL--------------------------
-1. Create a Twitch.tv account and write down your account name and streaming key. 
-A streaming key is a long string and can be found in the dashboard of your account. 
-Never expose this key to your viewers, but if that happened change the key!
+1. Create a Twitch.tv account at www.twitch.tv if you do not already have one.
 
-	-https://www.twitch.tv/
+2. Obtain your stream key as explained at https://youtu.be/g-cPiO73ReU
 
-2. Setup Open Broadcaster Software (OBS). You need to connect OBS to your twitch account
+3. Never expose this key to your viewers, but if it does occur, change the key!
+
+4. Set up Open Broadcaster Software (OBS). You need to connect OBS to your twitch account
  created in the previous step. 
 
 	-Download from https://obsproject.com/download
