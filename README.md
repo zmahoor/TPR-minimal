@@ -14,14 +14,23 @@
 
 6. Launch OBS and click "start streaming" (which will stream to your twitch channel).
 
-----------------------------TO SET UP A CHAT BOT(optional)--------------------
-1. Make another Twitch account that acts as a chat bot which connects to your streaming channel and read messages from/to the chat panel.
+## Set up a chat bot.
 
-2. To obtain an oauth token for a twitch account that serves as a chat bot: 
+1. You now need to create a chat bot that will collect the text that your users type into your Twitch channel.
 
-      Click http://www.twitchapps.com/tmi/ and login in to your twitch account that is supposed to be a chat bot, then copy the generated token. 
+2. Create a second Twitch account using the name of your bot. It can be called anything you like.
 
-3. Edit settings.py with your Twitch information: 
-		CHANNEL=name of channel you want to stream, IDENT=name of the twitch account acts as a chat bot, OAUTH=oauth token obtained from the previous step.
+3. Obtain an oauth token for your chat bot as explained at http://www.twitchapps.com/tmi/.
 
-4. Run "python chat_bot.py" to read messages entered into the chat section of your channel.
+4. Login in to your chat bot's twitch account, and copy the generated token.
+
+5. Edit settings.py with your Twitch information: 
+
+```
+CHANNEL=name of channel you want to stream,
+IDENT=name of the twitch account acts as a chat bot,
+OAUTH=oauth token obtained from the previous step.
+```
+
+6. Run "python chat_bot.py" to activate your chat bot.
+
